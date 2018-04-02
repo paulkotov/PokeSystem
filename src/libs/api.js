@@ -1,6 +1,6 @@
 function getProfile(){
   return fetch('https://paulkotov-pokeserver.herokuapp.com/auth', {
-    //mode: 'no-cors',
+    mode: 'cors',
     method: 'GET',
     credentials: 'include',
     headers: {
